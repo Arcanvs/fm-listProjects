@@ -1,0 +1,74 @@
+[
+    {
+        "id"    : 8,
+        "title" : "Calculator app",
+        "logo"  : "./images/",
+        "tools" : ["HTML", "CSS", "JS"],
+        "mentor": "https://www.frontendmentor.io/solutions/calculator-app-using-reactjs-D9JBwabkKR",
+        "live"  : "https://arcanvs.github.io/fm-calculatorApp/",
+        "repo"  : "https://github.com/Arcanvs/fm-calculatorApp"
+    },
+    {
+        "id"    : 7,
+        "title" : "News homepage",
+        "logo"  : "./images/",
+        "tools" : ["HTML", "CSS", "JS"],
+        "mentor": "https://www.frontendmentor.io/solutions/news-homepage-using-react-yOYbeAyfvY",
+        "live"  : "https://arcanvs.github.io/fm-newsHomepage/",
+        "repo"  : "https://github.com/Arcanvs/fm-newsHomepage"
+    },
+    {
+        "id"    : 6,
+        "title" : "Job listings with filtering",
+        "logo"  : "./images/",
+        "tools" : ["HTML", "CSS", "JS"],
+        "mentor": "https://www.frontendmentor.io/solutions/job-listings-with-filtering-YSND0XU6SW",
+        "live"  : "https://arcanvs.github.io/fm-staticJobListing/",
+        "repo"  : "https://github.com/Arcanvs/fm-staticJobListing"
+    },
+    {
+        "id"    : 5,
+        "title" : "Advice generator app",
+        "logo"  : "./images/",
+        "tools" : ["HTML", "CSS", "JS", "API"],
+        "mentor": "https://www.frontendmentor.io/solutions/advice-generator-app-vEHefNnptF",
+        "live"  : "https://arcanvs.github.io/fm-adviceGenerator/",
+        "repo"  : "https://github.com/Arcanvs/fm-adviceGenerator"
+    },
+    {
+        "id"    : 4,
+        "title" : "REST Countries API with color theme switcher",
+        "logo"  : "./images/",
+        "tools" : ["HTML", "CSS", "JS", "API"],
+        "mentor": "https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-3PtNH9RxT1",
+        "live"  : "https://arcanvs.github.io/fm-restCountries/",
+        "repo"  : "https://github.com/Arcanvs/fm-restCountries"
+    },
+    {
+        "id"    : 3,
+        "title" : "Profile card component",
+        "logo"  : "./images/",
+        "tools" : ["HTML", "CSS"],
+        "mentor": "https://www.frontendmentor.io/solutions/profile-card-component-using-sass-Hyl_6oXr9",
+        "live"  : "https://arcanvs.github.io/fm-profileCardComponent/",
+        "repo"  : "https://github.com/Arcanvs/fm-profileCardComponent"
+    },
+    {
+        "id"    : 2,
+        "title" : "Order summary component",
+        "logo"  : "./images/",
+        "tools" : ["HTML", "CSS"],
+        "mentor": "https://www.frontendmentor.io/solutions/order-summary-component-using-sass-J126UPyXQ",
+        "live"  : "https://arcanvs.github.io/fm-orderSummaryComponent/",
+        "repo"  : "https://github.com/Arcanvs/fm-orderSummaryComponent"
+    },
+    {
+        "id"    : 1,
+        "title" : "QR code component",
+        "logo"  : "./images/",
+        "tools" : ["HTML", "CSS"],
+        "mentor": "https://www.frontendmentor.io/solutions/qr-code-component-using-sass-IfoXJrfDm",
+        "live"  : "https://arcanvs.github.io/fm-qrCodeComponent/",
+        "repo"  : "https://github.com/Arcanvs/fm-qrCodeComponent"
+    }
+]
