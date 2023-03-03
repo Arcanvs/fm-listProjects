@@ -1,7 +1,6 @@
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
 import { ListProjects, Project } from './components/pages';
-import './App.css'
-
+import 'antd/dist/reset.css';
 
 function App() {
   return (
