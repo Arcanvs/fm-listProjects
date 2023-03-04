@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from "react";
 import dataProjects from "../../data/data.json";
-
+import CardProject from "../ui/CardProject";
 interface ProjectInterface {
     id    : number,
     title : string,
@@ -14,16 +14,14 @@ interface ProjectInterface {
 type ProjectListInterface = ProjectInterface[];
 
 const ListProjects: FC = () => {
-    const [jsonProjects, setJsonProjects] = useState<ProjectListInterface>([]);
+    const [jsonProjects, setJsonProjects] = useState<ProjectListInterface>(dataProjects);
 
-    useEffect(() => {
-        setJsonProjects(dataProjects);
-    }, []);
-    
-
+    console.log('json ', jsonProjects);
     return (
         <div>
-            { jsonProjects && 'Listado Proyectos' }
+            {dataProjects.map((item)=>{
+                return <CardProject key={item.id} {...item} />
+            })}
         </div>
     )
 }
