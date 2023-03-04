@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@ant-design/icons': ^5.0.1
   '@types/react': ^18.0.27
   '@types/react-dom': ^18.0.10
   '@types/react-router-dom': ^5.3.3
@@ -13,6 +14,7 @@ specifiers:
   vite: ^4.1.0
 
 dependencies:
+  '@ant-design/icons': 5.0.1_biqbaboplfbrettd7655fr4n2y
   '@types/react-router-dom': 5.3.3
   antd: 5.2.3_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
