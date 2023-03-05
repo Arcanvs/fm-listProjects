@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Card, Button } from 'antd';
+import { Card } from 'antd';
 import { GithubOutlined, LaptopOutlined, GlobalOutlined } from '@ant-design/icons';
 
 const { Meta } = Card;
