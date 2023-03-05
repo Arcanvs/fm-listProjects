@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Card, Button } from 'antd';
-import { GithubOutlined, LaptopOutlined } from '@ant-design/icons';
+import { GithubOutlined, LaptopOutlined, GlobalOutlined } from '@ant-design/icons';
 
 const { Meta } = Card;
 
@@ -14,28 +14,29 @@ interface CardProjectInterface {
   repo  : string
 };
 
-const CardProject: FC<CardProjectInterface> = ({title, logo, repo}) => {
+const CardProject: FC<CardProjectInterface> = ({title, logo, repo, live, mentor, tools}) => {
   const handleClick = (url: string) : void => {
     window.open(url, '_blank');
   }
   
   return (
     <Card
-      style={{ width: 300 }}
       cover={
         <img
-          alt="example"
+          alt={title}
           src={logo}
         />
       }
       actions={[
         <GithubOutlined key="github" onClick={() => handleClick(repo)} />,
-        <LaptopOutlined key="laptop" />
+        <LaptopOutlined key="laptop" onClick={() => handleClick(live)} />,
+        <GlobalOutlined key="global" onClick={() => handleClick(mentor)} />
       ]}
+      style={{marginBottom: '20px;'}}
     >
       <Meta
         title={title}
-        description="This is the description"
+        description={tools.join(' ')}
       />
     </Card>
   )
