@@ -7,10 +7,10 @@ function App() {
     <main className="App">
       <BrowserRouter>
         <Routes>
-            <Route path='/' element={<ListProjects />} />
+            <Route path='/fm-listProjects/' element={<ListProjects />} />
             <Route
                 path="*"
-                element={<Navigate to="/" replace />}
+                element={<Navigate to="/fm-listProjects/" replace />}
             />
         </Routes>
       </BrowserRouter>
